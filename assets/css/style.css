@@ -44,11 +44,11 @@ header .alps {
 }
 
 .alps article h1{
-text-align: center;
-font-family:'Cinzel-Regular';
-font-weight: 200;
-font-size:4em;
-color: white;
+    text-align: center;
+    font-family:'Cinzel-Regular';
+    font-weight: 200;
+    font-size:4em;
+    color: white;
 }
 
 
@@ -59,17 +59,14 @@ h2{
     text-align: center;
 }
 
-
 main .main_sec {
-
     width: 90vw;
     margin: 0 auto;
     text-align: center;
 }
 
 main .main_sec .choose{
-    padding: 5% 4%;
-
+    padding: 8% 4% 5% 4%;
 }
 
 main .main_sec .choose h2{

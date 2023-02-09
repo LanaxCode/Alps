@@ -1,0 +1,147 @@
+@font-face {
+    font-family:'Cinzel-Regular';
+    src: url('../fonts/Cinzel-Regular.ttf');
+} 
+
+
+@font-face {
+    font-family:'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-family:'Poppins-Regular';
+    font-size: 1em;
+}
+
+/* === HEADER === */
+
+header .head{
+    background-color: white;
+    margin:0 auto;
+}
+
+header .head h3{
+    font-size: 1.5em;
+    color: #999;
+    padding: 1.5vw 2vh 1.5vw 10vh;
+    font-family:'Cinzel-Regular';
+}
+
+
+header .alps {
+    background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 33vh;
+}
+
+.alps article h1{
+text-align: center;
+font-family:'Cinzel-Regular';
+font-weight: 200;
+font-size:4em;
+color: white;
+}
+
+
+/* === MAIN === */
+
+h2{
+    font-family:'Cinzel-Regular';
+    text-align: center;
+}
+
+
+main .main_sec {
+
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .main_sec .choose{
+    padding: 5% 4%;
+
+}
+
+main .main_sec .choose h2{
+    font-family:'Cinzel-Regular';
+    padding-bottom: 8vh;
+}
+
+main .main_sec div{
+    margin-bottom: 5%;
+}
+
+main .main_sec div img{
+width: 25vw;
+padding:5vh 2vw 5vh 2vw;
+}
+
+section .tour_dates{
+text-align: left;
+padding-bottom: 10%;
+}
+section .tour_dates h2{
+    padding-bottom: 2%;
+}
+
+section .tour_dates p{
+    text-align: left;
+    line-height: 3em;
+    padding-left: 4%;
+}
+
+section .tour_dates .sold::after{
+    content: " - SOLD OUT";
+    color: red;
+}
+
+section .tour_dates .only::after{
+    content: " - ONLY 4 SPOTS AVAILABLE";
+    color: red;
+}
+
+section .tour_dates .avaible::after{
+    content: " - AVAILABLE";
+    color: #1ea547;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+}
+
+/* === FOOTER === */
+
+footer h2{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+footer div{
+    text-align: center;
+    padding: 1.5% 0% 1% 0 ; 
+}
+
+footer div a{
+    display: inline-block;
+    margin: 0 ;
+    padding: 0 1% 0 1%;
+    
+}
+
+footer div a:hover{
+    filter: invert(50%);
+}
+
